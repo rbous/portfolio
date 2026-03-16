@@ -29,6 +29,29 @@ a {
     margin-bottom: 4rem;
 }
 
+.hero-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-top: 1.25rem;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text .summary {
+    margin-top: 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 130px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 h1 {
     font-family: 'Syne', sans-serif;
     font-size: 2.8rem;
@@ -95,6 +118,96 @@ section + section {
     margin-top: 3.5rem;
 }
 
+/* Experience */
+
+.exp {
+    margin-bottom: 1.75rem;
+}
+
+.exp-top {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.exp-logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.exp-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex: 1;
+}
+
+.exp-info a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.exp-info a:hover {
+    color: #E09145;
+}
+
+.exp-info strong {
+    font-weight: 700;
+    font-size: 0.92rem;
+}
+
+.exp-role {
+    font-size: 0.7rem;
+    color: #5A5249;
+    margin-left: 0.5rem;
+    text-transform: lowercase;
+}
+
+.exp-focus {
+    font-size: 0.75rem;
+    color: #877E74;
+    font-style: italic;
+}
+
+.exp-icons {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.4rem;
+    margin-left: calc(28px + 0.75rem);
+    font-size: 1.25rem;
+    color: #5A5249;
+}
+
+.exp-icons i {
+    transition: color 0.2s;
+}
+
+.exp-icons i:hover {
+    color: #E09145;
+}
+
+/* Projects */
+
+.project-line {
+    font-size: 0.85rem;
+    color: #877E74;
+    line-height: 1.65;
+    margin-bottom: 0.75rem;
+}
+
+.project-line a {
+    color: #E8E0D4;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.project-line a:hover {
+    color: #E09145;
+}
+
 /* Entries */
 
 .entry {
@@ -111,6 +224,15 @@ section + section {
 .entry-header strong {
     font-weight: 700;
     font-size: 0.92rem;
+}
+
+.entry-header a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.entry-header a:hover {
+    color: #E09145;
 }
 
 .date, .tags {

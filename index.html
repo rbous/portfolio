@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rayane Boussanni</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta property="og:image" content="me.jpeg">
+    <meta property="og:title" content="Rayane Boussanni">
+    <meta property="og:description" content="Software Engineer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
 
@@ -16,11 +21,16 @@
         <section class="hero">
             <h1>Rayane Boussanni<span class="dot">.</span></h1>
             <p class="tagline">Software Engineer</p>
-            <p class="summary">I build robust, scalable systems and craft thoughtful digital experiences. Passionate about clean architecture, cloud infrastructure, and solving complex problems with elegant code.</p>
-            <div class="links">
-                <a href="https://github.com/rayaneboussanni">GitHub</a>
-                <a href="https://linkedin.com/in/rayaneboussanni">LinkedIn</a>
-                <a href="mailto:hello@rayaneboussanni.com">Email</a>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="summary">i build robust, scalable systems and craft thoughtful digital experiences. passionate about clean architecture, cloud infrastructure, and solving complex problems with elegant code.</p>
+                    <div class="links">
+                        <a href="https://github.com/rbous">GitHub</a>
+                        <a href="https://linkedin.com/in/rayane-boussanni">LinkedIn</a>
+                        <a href="mailto:rboussanni@gmail.com">Email</a>
+                    </div>
+                </div>
+                <img class="avatar" src="me.jpeg" alt="Rayane Boussanni">
             </div>
         </section>
 
@@ -28,31 +38,49 @@
         <section>
             <h2>Experience</h2>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <strong>Senior Software Engineer</strong>
-                    <span class="date">2023 &mdash; Present</span>
+            <div class="exp">
+                <div class="exp-top">
+                    <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=trendmicro.com&sz=64" alt="Trend Micro">
+                    <div class="exp-info">
+                        <span class="exp-name"><a href="https://www.trendmicro.com" target="_blank"><strong>Trend Micro</strong></a> <span class="exp-role">&mdash; swe</span></span>
+                        <span class="exp-focus">AI Security</span>
+                    </div>
                 </div>
-                <div class="company">Company Name</div>
-                <p>Led architecture and development of cloud-native microservices. Designed scalable APIs and mentored junior engineers across product teams.</p>
+                <div class="exp-icons">
+                    <i class="devicon-go-original-wordmark" title="Go"></i>
+                    <i class="devicon-mongodb-plain" title="MongoDB"></i>
+                    <i class="devicon-amazonwebservices-plain-wordmark" title="AWS"></i>
+                </div>
             </div>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <strong>Software Engineer</strong>
-                    <span class="date">2021 &mdash; 2023</span>
+            <div class="exp">
+                <div class="exp-top">
+                    <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=jsitelecom.com&sz=64" alt="JSI Telecom">
+                    <div class="exp-info">
+                        <span class="exp-name"><a href="https://www.jsitelecom.com" target="_blank"><strong>JSI Telecom</strong></a> <span class="exp-role">&mdash; swe</span></span>
+                        <span class="exp-focus">Testing &amp; Microservices</span>
+                    </div>
                 </div>
-                <div class="company">Company Name</div>
-                <p>Built backend services handling millions of requests daily. Improved system observability and reduced incident response time by 40%.</p>
+                <div class="exp-icons">
+                    <i class="devicon-python-plain" title="Python"></i>
+                    <i class="devicon-kubernetes-plain" title="Kubernetes"></i>
+                    <i class="devicon-docker-plain" title="Docker"></i>
+                </div>
             </div>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <strong>Junior Developer</strong>
-                    <span class="date">2019 &mdash; 2021</span>
+            <div class="exp">
+                <div class="exp-top">
+                    <img class="exp-logo" src="https://www.google.com/s2/favicons?domain=canada.ca&sz=64" alt="CSC">
+                    <div class="exp-info">
+                        <span class="exp-name"><a href="https://www.csc-scc.gc.ca" target="_blank"><strong>Correctional Service Canada</strong></a> <span class="exp-role">&mdash; swe</span></span>
+                        <span class="exp-focus">Compliance Reporting</span>
+                    </div>
                 </div>
-                <div class="company">Company Name</div>
-                <p>Developed full-stack features for internal tools and customer-facing products.</p>
+                <div class="exp-icons">
+                    <i class="devicon-java-plain" title="Java"></i>
+                    <i class="devicon-spring-plain" title="Spring Boot"></i>
+                    <i class="devicon-azure-plain" title="Azure DevOps"></i>
+                </div>
             </div>
         </section>
 
@@ -60,29 +88,12 @@
         <section>
             <h2>Projects</h2>
 
-            <div class="entry">
-                <div class="entry-header">
-                    <strong>Cloud Orchestrator</strong>
-                    <span class="tags">Go, gRPC, AWS</span>
-                </div>
-                <p>Lightweight tool for managing multi-cloud deployments with declarative config and real-time health monitoring.</p>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <strong>API Gateway</strong>
-                    <span class="tags">Rust, Redis, Docker</span>
-                </div>
-                <p>High-performance gateway with rate limiting, circuit breaking, and automatic service discovery.</p>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <strong>DevLog</strong>
-                    <span class="tags">TypeScript, Next.js, MDX</span>
-                </div>
-                <p>Minimal, markdown-powered developer blog engine with syntax highlighting and static generation.</p>
-            </div>
+            <p class="project-line"><a href="https://champanzee.tech" target="_blank">champanzee.tech</a> &mdash; full-stack fantasy sports platform.</p>
+            <p class="project-line"><a href="https://github.com/rbous/PyCompiler" target="_blank">pycompiler</a> &mdash; chocopy to c compiler.</p>
+            <p class="project-line"><a href="https://github.com/rbous/automate311" target="_blank">automate311</a> &mdash; automatic email interpreter for 311 service requests.</p>
+            <p class="project-line"><a href="https://github.com/rbous/online-pong" target="_blank">online-pong</a> &mdash; multiplayer pong game over the network.</p>
+            <p class="project-line"><a href="https://github.com/rbous/memory-game" target="_blank">memory-game</a> &mdash; card matching game with a gui.</p>
+            <p class="project-line"><a href="https://github.com/rbous/todo-list" target="_blank">todo-list</a> &mdash; task manager web app built with django.</p>
         </section>
     </main>
 
