@@ -4,199 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rayane Boussanni</title>
-    <meta name="description" content="Rayane Boussanni — Software Engineer. Building thoughtful digital experiences.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Grain overlay -->
-    <div class="grain" aria-hidden="true"></div>
-
-    <!-- Navigation -->
-    <nav class="nav">
-        <a href="#" class="nav__logo">RB</a>
-        <div class="nav__links">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact" class="nav__cta">Get in Touch</a>
-        </div>
-    </nav>
-
-    <!-- Hero -->
-    <header class="hero" id="hero">
-        <div class="hero__label reveal">Software Engineer</div>
-        <h1 class="hero__title">
-            <span class="reveal">Rayane</span>
-            <span class="reveal">Boussanni<span class="hero__dot">.</span></span>
-        </h1>
-        <div class="hero__summary reveal">
-            <p>I build robust, scalable systems and craft thoughtful digital experiences. Passionate about clean architecture, cloud infrastructure, and solving complex problems with elegant code.</p>
-        </div>
-        <div class="hero__scroll reveal" aria-hidden="true">
-            <div class="hero__scroll-line"></div>
-            <span>Scroll</span>
-        </div>
-    </header>
-
-    <!-- About / Links -->
-    <section class="about" id="about">
-        <div class="about__grid">
-            <div class="about__col about__col--label">
-                <span class="section-number reveal">01</span>
-                <h2 class="section-title reveal">About</h2>
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <h1>Rayane Boussanni<span class="dot">.</span></h1>
+            <p class="tagline">Software Engineer</p>
+            <p class="summary">I build robust, scalable systems and craft thoughtful digital experiences. Passionate about clean architecture, cloud infrastructure, and solving complex problems with elegant code.</p>
+            <div class="links">
+                <a href="https://github.com/rayaneboussanni">GitHub</a>
+                <a href="https://linkedin.com/in/rayaneboussanni">LinkedIn</a>
+                <a href="mailto:hello@rayaneboussanni.com">Email</a>
             </div>
-            <div class="about__col about__col--content">
-                <p class="about__text reveal">
-                    I'm a software engineer who thrives at the intersection of backend systems and cloud-native architecture. I enjoy building tools that empower teams, designing APIs that developers love, and pushing infrastructure to be more resilient. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or diving into a good problem.
-                </p>
-                <div class="about__links reveal">
-                    <a href="https://github.com/rayaneboussanni" target="_blank" rel="noopener" class="link-pill">
-                        <span class="link-pill__icon">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-                        </span>
-                        GitHub
-                        <span class="link-pill__arrow">&rarr;</span>
-                    </a>
-                    <a href="https://linkedin.com/in/rayaneboussanni" target="_blank" rel="noopener" class="link-pill">
-                        <span class="link-pill__icon">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-                        </span>
-                        LinkedIn
-                        <span class="link-pill__arrow">&rarr;</span>
-                    </a>
-                    <a href="mailto:hello@rayaneboussanni.com" class="link-pill">
-                        <span class="link-pill__icon">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                        </span>
-                        Email
-                        <span class="link-pill__arrow">&rarr;</span>
-                    </a>
-                    <a href="/resume.pdf" target="_blank" class="link-pill">
-                        <span class="link-pill__icon">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        </span>
-                        Resume
-                        <span class="link-pill__arrow">&rarr;</span>
-                    </a>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Senior Software Engineer</strong>
+                    <span class="date">2023 &mdash; Present</span>
                 </div>
+                <div class="company">Company Name</div>
+                <p>Led architecture and development of cloud-native microservices. Designed scalable APIs and mentored junior engineers across product teams.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Experience -->
-    <section class="experience" id="experience">
-        <div class="experience__header">
-            <span class="section-number reveal">02</span>
-            <h2 class="section-title reveal">Experience</h2>
-        </div>
-        <div class="experience__timeline">
-            <article class="exp-card reveal">
-                <div class="exp-card__date">2023 &mdash; Present</div>
-                <div class="exp-card__content">
-                    <h3 class="exp-card__role">Senior Software Engineer</h3>
-                    <div class="exp-card__company">Company Name</div>
-                    <p class="exp-card__desc">Led architecture and development of cloud-native microservices. Designed scalable APIs, implemented CI/CD pipelines, and mentored junior engineers across multiple product teams.</p>
-                    <div class="exp-card__tags">
-                        <span>Go</span><span>AWS</span><span>Kubernetes</span><span>Terraform</span>
-                    </div>
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Software Engineer</strong>
+                    <span class="date">2021 &mdash; 2023</span>
                 </div>
-            </article>
-            <article class="exp-card reveal">
-                <div class="exp-card__date">2021 &mdash; 2023</div>
-                <div class="exp-card__content">
-                    <h3 class="exp-card__role">Software Engineer</h3>
-                    <div class="exp-card__company">Company Name</div>
-                    <p class="exp-card__desc">Built and maintained backend services handling millions of requests daily. Improved system observability, reduced incident response time by 40%, and contributed to platform reliability initiatives.</p>
-                    <div class="exp-card__tags">
-                        <span>Python</span><span>Docker</span><span>PostgreSQL</span><span>Redis</span>
-                    </div>
-                </div>
-            </article>
-            <article class="exp-card reveal">
-                <div class="exp-card__date">2019 &mdash; 2021</div>
-                <div class="exp-card__content">
-                    <h3 class="exp-card__role">Junior Developer</h3>
-                    <div class="exp-card__company">Company Name</div>
-                    <p class="exp-card__desc">Developed full-stack features for internal tools and customer-facing products. Collaborated closely with design and product teams to ship iteratively and gather user feedback.</p>
-                    <div class="exp-card__tags">
-                        <span>JavaScript</span><span>React</span><span>Node.js</span><span>MongoDB</span>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </section>
+                <div class="company">Company Name</div>
+                <p>Built backend services handling millions of requests daily. Improved system observability and reduced incident response time by 40%.</p>
+            </div>
 
-    <!-- Projects -->
-    <section class="projects" id="projects">
-        <div class="projects__header">
-            <span class="section-number reveal">03</span>
-            <h2 class="section-title reveal">Projects</h2>
-        </div>
-        <div class="projects__grid">
-            <a href="#" class="project-card reveal" target="_blank" rel="noopener">
-                <div class="project-card__number">01</div>
-                <h3 class="project-card__title">Cloud Orchestrator</h3>
-                <p class="project-card__desc">A lightweight orchestration tool for managing multi-cloud deployments with declarative configuration and real-time health monitoring.</p>
-                <div class="project-card__stack">
-                    <span>Go</span><span>gRPC</span><span>AWS</span><span>GCP</span>
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Junior Developer</strong>
+                    <span class="date">2019 &mdash; 2021</span>
                 </div>
-                <div class="project-card__arrow">&nearr;</div>
-            </a>
-            <a href="#" class="project-card reveal" target="_blank" rel="noopener">
-                <div class="project-card__number">02</div>
-                <h3 class="project-card__title">API Gateway</h3>
-                <p class="project-card__desc">High-performance API gateway with rate limiting, circuit breaking, and automatic service discovery for microservice architectures.</p>
-                <div class="project-card__stack">
-                    <span>Rust</span><span>Redis</span><span>Docker</span>
-                </div>
-                <div class="project-card__arrow">&nearr;</div>
-            </a>
-            <a href="#" class="project-card reveal" target="_blank" rel="noopener">
-                <div class="project-card__number">03</div>
-                <h3 class="project-card__title">DevLog</h3>
-                <p class="project-card__desc">A minimal, markdown-powered developer blog engine with syntax highlighting, RSS feeds, and blazing fast static generation.</p>
-                <div class="project-card__stack">
-                    <span>TypeScript</span><span>Next.js</span><span>MDX</span>
-                </div>
-                <div class="project-card__arrow">&nearr;</div>
-            </a>
-            <a href="#" class="project-card reveal" target="_blank" rel="noopener">
-                <div class="project-card__number">04</div>
-                <h3 class="project-card__title">Infra Monitor</h3>
-                <p class="project-card__desc">Real-time infrastructure monitoring dashboard with anomaly detection, alerting, and cost optimization recommendations.</p>
-                <div class="project-card__stack">
-                    <span>Python</span><span>Grafana</span><span>Prometheus</span>
-                </div>
-                <div class="project-card__arrow">&nearr;</div>
-            </a>
-        </div>
-    </section>
+                <div class="company">Company Name</div>
+                <p>Developed full-stack features for internal tools and customer-facing products.</p>
+            </div>
+        </section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <div class="contact__inner">
-            <span class="section-number reveal">04</span>
-            <h2 class="contact__title reveal">Let's build<br>something great<span class="hero__dot">.</span></h2>
-            <p class="contact__text reveal">I'm always open to interesting conversations, collaborations, and new opportunities. Don't hesitate to reach out.</p>
-            <a href="mailto:hello@rayaneboussanni.com" class="contact__btn reveal">
-                Say Hello
-                <span>&rarr;</span>
-            </a>
-        </div>
-    </section>
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__inner">
-            <span class="footer__name">Rayane Boussanni</span>
-            <span class="footer__year">&copy; 2026</span>
-        </div>
-    </footer>
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>Cloud Orchestrator</strong>
+                    <span class="tags">Go, gRPC, AWS</span>
+                </div>
+                <p>Lightweight tool for managing multi-cloud deployments with declarative config and real-time health monitoring.</p>
+            </div>
 
-    <script src="main.js"></script>
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>API Gateway</strong>
+                    <span class="tags">Rust, Redis, Docker</span>
+                </div>
+                <p>High-performance gateway with rate limiting, circuit breaking, and automatic service discovery.</p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <strong>DevLog</strong>
+                    <span class="tags">TypeScript, Next.js, MDX</span>
+                </div>
+                <p>Minimal, markdown-powered developer blog engine with syntax highlighting and static generation.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>&copy; 2026 Rayane Boussanni</footer>
+
 </body>
 </html>
